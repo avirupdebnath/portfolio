@@ -1,0 +1,17 @@
+.btn {
+    display:block;
+    height: 8vh;
+    width: 8vh;
+    padding: 0;
+    margin: 0;
+    font-size: 2vh;
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  .btn i{
+      pointer-events: none;
+      font-size: 2vh;
+  }
+  .button-holder :hover{
+      transform: scale(1.2);
+  }

@@ -1,0 +1,73 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.about-container{
+    /* z-index: -1; */
+    opacity: 0.8;
+    height: 100vh;
+    padding-left: 10vh;
+    width: 60%;
+    background-color:#ffd369;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+.image-container{
+    background-image: url("../images/profile-image_bw.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+    width: 40%;
+    padding: 0vh 40vh;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.big-heading{
+    color: black;
+    font-size: 6vh;
+    line-height: 1.5;
+    padding: 2vh 0;
+    margin: 0;
+    text-size-adjust: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.heading{
+    color: black;
+    font-size: 4vh;
+    line-height: 1.5;
+    padding: 1vh 0;
+    margin: 0;
+    text-size-adjust: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.my-name{
+    background-color: black;
+    color:white;
+    padding: 0 1vh;
+}
+
+.description{
+    color: black;
+    font-size: 3vh;
+    padding: 1vh 30vh 1vh 0vh ;
+}
+
+.section-heading{
+    font-size:2.5rem;
+}

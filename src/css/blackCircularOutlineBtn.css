@@ -1,0 +1,24 @@
+.dark-btn {
+    display:block;
+    height: 8vh;
+    width: 8vh;
+    padding: 0;
+    margin: 0;
+    font-size: 2vh;
+    border-radius: 50%;
+    opacity:1;
+  }
+  .dark-btn i{
+      pointer-events: none;
+      font-size: 2vh;
+  }
+
+  .dark-button-holder :hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+  }
+
+  .btn-outline-dark:hover{
+    border-color: black;
+  }
